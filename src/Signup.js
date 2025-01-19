@@ -23,8 +23,8 @@ function Signup() {
             e.preventDefault();
             setErrors(Validate(values));
             if(errors.name === "" && errors.email === "" && errors.password === "") {
-                axios.post('http://localhost:8081/signup', values)
-                // axios.post('https://p-back-rajim0112s-projects.vercel.app/signup', values)
+                // axios.post('http://localhost:8081/signup', values)
+                axios.post('https://p-back.vercel.app//signup', values)
                 .then(res => {
                     navigate('/');
                 })
