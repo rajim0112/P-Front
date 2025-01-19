@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.sign, .login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 37, 178);
+  height: 100vh;
+}
+
+.sign-box,.login-box{
+  background-color: white;
+  width: 25%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.head1, .head2{
+  text-align: center;
+}
+
+.home{
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
