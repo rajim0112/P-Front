@@ -16,15 +16,15 @@ function Signup() {
 
         const [errors, setErrors] = useState({})
         const handleInput=(e) => {
-            setValues(prev => ({...prev,[e.target.name]:[e.target.value]}))
+            setValues(prev => ({...prev,[e.target.name]:[e.target.value] }))
         }
 
         const handleSubmit = (e) => {
             e.preventDefault();
             setErrors(Validate(values));
             if(errors.name === "" && errors.email === "" && errors.password === "") {
-                // axios.post('http://localhost:8081/signup', values)
-                axios.post('https://p-back.vercel.app//signup', values)
+                axios.post('http://localhost:8081/signup', values)
+                // axios.post('https://p-back.vercel.app/signup', values)
                 .then(res => {
                     navigate('/');
                 })

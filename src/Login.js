@@ -14,7 +14,7 @@ const Login = () => {
 
     const [errors, setErrors] = useState({})
     const handleInput=(e) => {
-        setValues(prev => ({...prev,[e.target.name]:[e.target.value]}))
+        setValues(prev => ({...prev,[e.target.name]: [e.target.value] }))
     }
 
     const handleSubmit = (e) => {
@@ -22,8 +22,8 @@ const Login = () => {
         setErrors(Validate(values));
         setErrors(Validate(values));
             if(errors.email === "" && errors.password === "") {
-                // axios.post('http://localhost:8081/login', values)
-                axios.post('https://p-back.vercel.app//login', values)
+                axios.post('http://localhost:8081/login', values)
+                // axios.post('https://p-back.vercel.app/login', values)
                 .then(res => {
                     if(res.data === "Success") {
                         navigate('/home');
