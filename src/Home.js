@@ -51,24 +51,24 @@ const Home = () => {
             <div className="food">Chicken Kebas</div>
         </div>
         <div className="recipe1">
-            <img src={stat2} alt="Chicken Kebas" width="290" height="200" />
+            <img src={stat2} alt="Chicken 65" width="290" height="200" />
             <div className="food">Chicken 65</div>
         </div>
         <div className="recipe1">
             <img src={stat3} alt="Chilli Chicken" width="290" height="200" />
-            <div className="food">Chicken 65</div>
+            <div className="food">Chilli Chicken</div>
         </div>
         <div className="recipe1">
             <img src={stat4} alt="Chicken Lollipop" width="290" height="200" />
-            <div className="food">Chicken 65</div>
+            <div className="food">Chicken Lollipop</div>
         </div>
         <div className="recipe1">
-            <img src={stat5} alt="Prawn" width="290" height="200" />
-            <div className="food">Chicken 65</div>
+            <img src={stat5} alt="Prawns" width="290" height="200" />
+            <div className="food">Prawns</div>
         </div>
         <div className="recipe1">
             <img src={stat6} alt="Fish" width="290" height="200" />
-            <div className="food">Chicken 65</div>
+            <div className="food">Fish</div>
         </div>
       </section>
 
@@ -79,23 +79,23 @@ const Home = () => {
             <div className="food">Chicken Dum Biriyani</div>
         </div>
         <div className="recipe2">
-            <img src={food2} alt="Chicken Dum Biriyani" width="290" height="200" />
+            <img src={food2} alt="Special Biriyani" width="290" height="200" />
             <div className="food">Special Biriyani</div>
         </div>
         <div className="recipe2">
-            <img src={food3} alt="Chicken Dum Biriyani" width="290" height="200" />
+            <img src={food3} alt="Fry Biriyani" width="290" height="200" />
             <div className="food">Fry Biriyani</div>
         </div>
         <div className="recipe2">
-            <img src={food4} alt="Chicken Dum Biriyani" width="290" height="200" />
+            <img src={food4} alt="Pot Biriyani" width="290" height="200" />
             <div className="food">Pot Biriyani</div>
         </div>
         <div className="recipe2">
-            <img src={food5} alt="Chicken Dum Biriyani" width="290" height="200" />
+            <img src={food5} alt="Chicken Mandi" width="290" height="200" />
             <div className="food">Chicken Mandi</div>
         </div>
         <div className="recipe2">
-            <img src={food6} alt="Chicken Dum Biriyani" width="290" height="200" />
+            <img src={food6} alt="Veg-Thali" width="290" height="200" />
             <div className="food">Veg-Thali</div>
         </div>
       </section>
@@ -107,23 +107,23 @@ const Home = () => {
           <div className="food">Icecream Sandwich</div>
         </div>
         <div className="recipe3">
-            <img src={des2} alt="Icecream Sandwich" width="290" height="200" />
+            <img src={des2} alt="Chocolate Icecream" width="290" height="200" />
           <div className="food">Chocolate Icecream</div>
         </div>
         <div className="recipe3">
-            <img src={des3} alt="Icecream Sandwich" width="290" height="200" />
+            <img src={des3} alt="Pumpkin Icecream Roll" width="290" height="200" />
           <div className="food">Pumpkin Icecream Roll</div>
         </div>
         <div className="recipe3">
-            <img src={des4} alt="Icecream Sandwich" width="290" height="200" />
+            <img src={des4} alt="Blueberry Cheesecake" width="290" height="200" />
           <div className="food">Blueberry Cheesecake</div>
         </div>
         <div className="recipe3">
-            <img src={des5} alt="Icecream Sandwich" width="290" height="200" />
+            <img src={des5} alt="Oatmeal Cookies" width="290" height="200" />
           <div className="food">Oatmeal Cookies</div>
         </div>
         <div className="recipe3">
-            <img src={des6} alt="Icecream Sandwich" width="290" height="200" />
+            <img src={des6} alt="Mocktails & Fruitjuices" width="290" height="200" />
           <div className="food">Mocktails & Fruitjuices</div>
         </div>
       </section>
